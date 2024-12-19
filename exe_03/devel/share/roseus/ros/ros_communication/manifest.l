@@ -1,0 +1,1 @@
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_communication/share/roseus/ros/ros_communication/manifest.l

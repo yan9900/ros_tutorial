@@ -1,0 +1,30 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_communication
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/lcy/ROS_tutorial/exe_03/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/lcy/ROS_tutorial/exe_03/devel;/opt/ros/noetic
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/lcy/ROS_tutorial/exe_03/build/ros_communication/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m ros_communication: 1 messages, 0 services
+[31mCMake Error at CMakeLists.txt:149 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target
+  "ros_communication".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+[0m
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/lcy/ROS_tutorial/exe_03/build/ros_communication/CMakeFiles/CMakeOutput.log".
+make: *** [Makefile:825：cmake_check_build_system] 错误 1

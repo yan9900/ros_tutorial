@@ -1,0 +1,1 @@
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/share/gennodejs/ros/ros_server_client/_index.js

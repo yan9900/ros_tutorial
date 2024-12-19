@@ -1,0 +1,6 @@
+#client makes request to server
+int32 num1 
+int32 num2
+---
+#server responses to client
+int32 sum

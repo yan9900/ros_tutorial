@@ -1,0 +1,1 @@
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_communication/share/ros_communication/cmake/ros_communication-msg-extras.cmake

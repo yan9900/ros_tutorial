@@ -1,0 +1,1 @@
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_communication/lib/python3/dist-packages/ros_communication/msg/_Person.py

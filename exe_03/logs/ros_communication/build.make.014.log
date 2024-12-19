@@ -1,0 +1,70 @@
+[35m[1mConsolidate compiler generated dependencies of target ros_communication_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target ros_communication_sub[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 13%] Built target ros_communication_pub
+[ 26%] Built target ros_communication_sub
+[ 26%] Built target _ros_communication_generate_messages_check_deps_Person
+[ 46%] Built target ros_communication_generate_messages_lisp
+[ 46%] Built target ros_communication_generate_messages_eus
+[ 53%] Built target ros_communication_generate_messages_nodejs
+[ 66%] Built target ros_communication_generate_messages_py
+[ 73%] Built target ros_communication_generate_messages_cpp
+[35m[1mConsolidate compiler generated dependencies of target ros_pub_personal_msg[0m
+[ 80%] Built target ros_communication_generate_messages
+[ 80%] [32mBuilding CXX object CMakeFiles/ros_sub_personal_msg.dir/src/ros_sub_personal_msg.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ros_pub_personal_msg.dir/src/ros_pub_personal_msg.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_pub_personal_msg.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:8:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_communication[m[K’ does not name a type
+    8 | void doPerson(const [01;31m[Kros_communication[m[K::Person::ConstPtr& msg)
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:8:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+    8 | void doPerson(const ros_communication::Person[01;31m[K::[m[KConstPtr& msg)
+      |                                              [01;31m[K^~[m[K
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:8:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+    8 | void doPerson[34m[K([m[Kconst ros_communication::Person[01;31m[K:[m[K[32m[K:[m[KConstPtr& msg)
+      |              [34m[K~[m[K                               [01;31m[K^[m[K[32m[K~[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:8:46:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+    8 | void doPerson(const ros_communication::Person[01;31m[K::[m[KConstPtr& msg)
+      |                                              [01;31m[K^~[m[K
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lcy/ROS_tutorial/exe_03/src/ros_communication/src/ros_sub_personal_msg.cpp:21:61:[m[K [01;31m[Kerror: [m[K‘[01m[KdoPerson[m[K’ was not declared in this scope
+   21 |     ros::Subscriber sub = nh.subscribe("personal_data", 10, [01;31m[KdoPerson[m[K )
+      |                                                             [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros_sub_personal_msg.dir/build.make:76：CMakeFiles/ros_sub_personal_msg.dir/src/ros_sub_personal_msg.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:1091：CMakeFiles/ros_sub_personal_msg.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[ 93%] [32m[1mLinking CXX executable /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_communication/lib/ros_communication/ros_pub_personal_msg[0m
+[ 93%] Built target ros_pub_personal_msg
+make: *** [Makefile:146：all] 错误 2

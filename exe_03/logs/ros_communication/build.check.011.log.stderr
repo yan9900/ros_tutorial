@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:149 (add_dependencies):
+  The dependency target "ros_communication_generate_massages_cpp" of target
+  "ros_pub_personal_msg" does not exist.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+make: *** [Makefile:784：cmake_check_build_system] 错误 1

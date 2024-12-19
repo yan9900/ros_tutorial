@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libgtest_maind.so.1.11.0 -o ../lib/libgtest_maind.so.1.11.0 CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/lcy/ROS_tutorial/exe_03/build/gtest/lib ../lib/libgtestd.so.1.11.0 

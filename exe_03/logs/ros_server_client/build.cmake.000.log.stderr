@@ -1,0 +1,12 @@
+[31mCMake Error at /opt/ros/noetic/share/catkin/cmake/assert.cmake:20 (message):
+
+
+  Assertion failed: file
+  '/home/lcy/ROS_tutorial/exe_03/src/ros_server_client/srv/Addinits.srv' does
+  not exist.  Message: service file not found
+
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:170 (assert_file_exists)
+  CMakeLists.txt:58 (add_service_files)
+
+[0m
