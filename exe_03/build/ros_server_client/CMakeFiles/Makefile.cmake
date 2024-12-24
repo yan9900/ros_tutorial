@@ -262,6 +262,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ros_server_client_gennodejs.dir/DependInfo.cmake"
   "CMakeFiles/ros_server_client_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/ros_server_client_genpy.dir/DependInfo.cmake"
+  "CMakeFiles/ros_server.dir/DependInfo.cmake"
+  "CMakeFiles/ros_client.dir/DependInfo.cmake"
   "gtest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "gtest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

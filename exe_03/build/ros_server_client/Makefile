@@ -588,6 +588,32 @@ ros_server_client_genpy/fast:
 .PHONY : ros_server_client_genpy/fast
 
 #=============================================================================
+# Target rules for targets named ros_server
+
+# Build rule for target.
+ros_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_server
+.PHONY : ros_server
+
+# fast build rule for target.
+ros_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_server.dir/build.make CMakeFiles/ros_server.dir/build
+.PHONY : ros_server/fast
+
+#=============================================================================
+# Target rules for targets named ros_client
+
+# Build rule for target.
+ros_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_client
+.PHONY : ros_client
+
+# fast build rule for target.
+ros_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_client.dir/build.make CMakeFiles/ros_client.dir/build
+.PHONY : ros_client/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -639,6 +665,54 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/ros_client.o: src/ros_client.cpp.o
+.PHONY : src/ros_client.o
+
+# target to build an object file
+src/ros_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_client.dir/build.make CMakeFiles/ros_client.dir/src/ros_client.cpp.o
+.PHONY : src/ros_client.cpp.o
+
+src/ros_client.i: src/ros_client.cpp.i
+.PHONY : src/ros_client.i
+
+# target to preprocess a source file
+src/ros_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_client.dir/build.make CMakeFiles/ros_client.dir/src/ros_client.cpp.i
+.PHONY : src/ros_client.cpp.i
+
+src/ros_client.s: src/ros_client.cpp.s
+.PHONY : src/ros_client.s
+
+# target to generate assembly for a file
+src/ros_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_client.dir/build.make CMakeFiles/ros_client.dir/src/ros_client.cpp.s
+.PHONY : src/ros_client.cpp.s
+
+src/ros_server.o: src/ros_server.cpp.o
+.PHONY : src/ros_server.o
+
+# target to build an object file
+src/ros_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_server.dir/build.make CMakeFiles/ros_server.dir/src/ros_server.cpp.o
+.PHONY : src/ros_server.cpp.o
+
+src/ros_server.i: src/ros_server.cpp.i
+.PHONY : src/ros_server.i
+
+# target to preprocess a source file
+src/ros_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_server.dir/build.make CMakeFiles/ros_server.dir/src/ros_server.cpp.i
+.PHONY : src/ros_server.cpp.i
+
+src/ros_server.s: src/ros_server.cpp.s
+.PHONY : src/ros_server.s
+
+# target to generate assembly for a file
+src/ros_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_server.dir/build.make CMakeFiles/ros_server.dir/src/ros_server.cpp.s
+.PHONY : src/ros_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -688,6 +762,14 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... ros_client"
+	@echo "... ros_server"
+	@echo "... src/ros_client.o"
+	@echo "... src/ros_client.i"
+	@echo "... src/ros_client.s"
+	@echo "... src/ros_server.o"
+	@echo "... src/ros_server.i"
+	@echo "... src/ros_server.s"
 .PHONY : help
 
 

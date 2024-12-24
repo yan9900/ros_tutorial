@@ -30,6 +30,8 @@
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/ros_server_client_gennodejs.dir
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/ros_server_client_generate_messages_py.dir
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/ros_server_client_genpy.dir
+/home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/ros_server.dir
+/home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/ros_client.dir
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/test.dir
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/edit_cache.dir
 /home/lcy/ROS_tutorial/exe_03/build/ros_server_client/CMakeFiles/rebuild_cache.dir

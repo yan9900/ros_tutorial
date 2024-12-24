@@ -4,6 +4,8 @@ ros_server_client
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/lib/python3/dist-packages/ros_server_client/__init__.py /home/lcy/ROS_tutorial/exe_03/devel/lib/python3/dist-packages/ros_server_client/__init__.py
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/lib/python3/dist-packages/ros_server_client/srv/_Addints.py /home/lcy/ROS_tutorial/exe_03/devel/lib/python3/dist-packages/ros_server_client/srv/_Addints.py
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/lib/python3/dist-packages/ros_server_client/srv/__init__.py /home/lcy/ROS_tutorial/exe_03/devel/lib/python3/dist-packages/ros_server_client/srv/__init__.py
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/lib/ros_server_client/ros_server /home/lcy/ROS_tutorial/exe_03/devel/lib/ros_server_client/ros_server
+/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/lib/ros_server_client/ros_client /home/lcy/ROS_tutorial/exe_03/devel/lib/ros_server_client/ros_client
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/include/ros_server_client/AddintsResponse.h /home/lcy/ROS_tutorial/exe_03/devel/include/ros_server_client/AddintsResponse.h
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/include/ros_server_client/AddintsRequest.h /home/lcy/ROS_tutorial/exe_03/devel/include/ros_server_client/AddintsRequest.h
 /home/lcy/ROS_tutorial/exe_03/devel/.private/ros_server_client/include/ros_server_client/Addints.h /home/lcy/ROS_tutorial/exe_03/devel/include/ros_server_client/Addints.h
