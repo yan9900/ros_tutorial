@@ -1,0 +1,7 @@
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/lib/pkgconfig/turtle_control.pc, /home/lcy/ROS_tutorial/exe_03/devel/lib/pkgconfig/turtle_control.pc)
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/lib/turtle_control/02_sub_pose, /home/lcy/ROS_tutorial/exe_03/devel/lib/turtle_control/02_sub_pose)
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/lib/turtle_control/03_service_client, /home/lcy/ROS_tutorial/exe_03/devel/lib/turtle_control/03_service_client)
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/lib/turtle_control/01_pub_twist, /home/lcy/ROS_tutorial/exe_03/devel/lib/turtle_control/01_pub_twist)
+Symlinking /home/lcy/ROS_tutorial/exe_03/devel/lib/turtle_control/04_param
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/share/turtle_control/cmake/turtle_controlConfig.cmake, /home/lcy/ROS_tutorial/exe_03/devel/share/turtle_control/cmake/turtle_controlConfig.cmake)
+Linked: (/home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/share/turtle_control/cmake/turtle_controlConfig-version.cmake, /home/lcy/ROS_tutorial/exe_03/devel/share/turtle_control/cmake/turtle_controlConfig-version.cmake)

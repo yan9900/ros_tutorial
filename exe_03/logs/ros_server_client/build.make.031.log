@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _ros_server_client_generate_messages_check_deps_Addints
+[ 36%] Built target ros_server_client_generate_messages_eus
+[ 36%] Built target ros_server_client_generate_messages_py
+[ 45%] Built target ros_server_client_generate_messages_lisp
+[ 54%] Built target ros_server_client_generate_messages_nodejs
+[ 63%] Built target ros_server_client_generate_messages_cpp
+[ 63%] Built target ros_server_client_gencpp
+[ 63%] Built target ros_server_client_generate_messages
+[ 81%] Built target ros_client
+[100%] Built target ros_server

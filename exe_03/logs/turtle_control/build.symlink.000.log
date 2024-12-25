@@ -1,0 +1,4 @@
+Symlinking /home/lcy/ROS_tutorial/exe_03/devel/lib/pkgconfig/turtle_control.pc
+Symlinking /home/lcy/ROS_tutorial/exe_03/devel/lib/turtle_control/01_pub_twist
+Symlinking /home/lcy/ROS_tutorial/exe_03/devel/share/turtle_control/cmake/turtle_controlConfig.cmake
+Symlinking /home/lcy/ROS_tutorial/exe_03/devel/share/turtle_control/cmake/turtle_controlConfig-version.cmake

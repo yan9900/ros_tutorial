@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lcy/ROS_tutorial/exe_03/devel/.private/turtle_control/setup.sh

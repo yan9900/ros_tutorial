@@ -1,0 +1,8 @@
+prefix=/home/lcy/ROS_tutorial/exe_03/devel/.private/ros_param_server
+
+Name: ros_param_server
+Description: Description of ros_param_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
