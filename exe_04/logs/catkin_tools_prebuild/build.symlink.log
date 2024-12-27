@@ -1,0 +1,12 @@
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./_setup_util.py
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./cmake.lock
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./local_setup.zsh
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./local_setup.sh
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./local_setup.bash
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./setup.bash
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./setup.sh
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./env.sh
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/./setup.zsh
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

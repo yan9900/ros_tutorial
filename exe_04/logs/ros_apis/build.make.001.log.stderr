@@ -1,0 +1,35 @@
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:25:49:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   25 |     ros::Publisher pub = nh.advertise<std_msgs::[01;31m[KString[m[K>("demo_topic",10);
+      |                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:25:49:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:25:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [11], int)[m[K’
+   25 |     ros::Publisher pub = nh.advertise<std_msgs::String>("demo_topic",10[01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  247 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:25:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     ros::Publisher pub = nh.advertise<std_msgs::String>("demo_topic",10[01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  313 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:25:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     ros::Publisher pub = nh.advertise<std_msgs::String>("demo_topic",10[01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:31:19:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   31 |         std_msgs::[01;31m[KString[m[K msg;
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lcy/ros_tutorial/exe_04/src/ros_apis/src/01_apis_pub.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   32 |         [01;31m[Kmsg[m[K.data = "demostration of apis";
+      |         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/01_apis_pub.dir/build.make:63：CMakeFiles/01_apis_pub.dir/src/01_apis_pub.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:182：CMakeFiles/01_apis_pub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
