@@ -135,6 +135,8 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/ros_apis_node.cpp)
 add_executable(01_apis_pub src/01_apis_pub.cpp)
+add_executable(02_apis_sub src/02_apis_sub.cpp)
+add_executable(03_apis_time src/03_apis_time.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -148,6 +150,12 @@ add_executable(01_apis_pub src/01_apis_pub.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(01_apis_pub
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(02_apis_sub
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(03_apis_time
   ${catkin_LIBRARIES}
 )
 
