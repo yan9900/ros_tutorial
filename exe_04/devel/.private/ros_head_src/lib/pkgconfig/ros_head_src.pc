@@ -1,0 +1,8 @@
+prefix=/home/lcy/ros_tutorial/exe_04/devel/.private/ros_head_src
+
+Name: ros_head_src
+Description: Description of ros_head_src
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

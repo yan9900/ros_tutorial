@@ -1,0 +1,55 @@
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target turtlesim_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target turtlesim_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] [32m[1mLinking CXX executable /home/lcy/ros_tutorial/exe_05/devel/.private/demo02tf_dynamic/lib/demo02tf_dynamic/demo02_dynamic_sub[0m
+[ 75%] Built target demo01_dynamic_pub
+/usr/bin/ld: CMakeFiles/demo02_dynamic_sub.dir/src/demo02_dynamic_sub.cpp.o: in function `geometry_msgs::PointStamped_<std::allocator<void> >& tf2_ros::BufferInterface::transform<geometry_msgs::PointStamped_<std::allocator<void> > >(geometry_msgs::PointStamped_<std::allocator<void> > const&, geometry_msgs::PointStamped_<std::allocator<void> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ros::Duration) const':
+demo02_dynamic_sub.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE]+0x5c): undefined reference to `ros::Time const& tf2::getTimestamp<geometry_msgs::PointStamped_<std::allocator<void> > >(geometry_msgs::PointStamped_<std::allocator<void> > const&)'
+/usr/bin/ld: demo02_dynamic_sub.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE]+0x6e): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const& tf2::getFrameId<geometry_msgs::PointStamped_<std::allocator<void> > >(geometry_msgs::PointStamped_<std::allocator<void> > const&)'
+/usr/bin/ld: demo02_dynamic_sub.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs13PointStamped_ISaIvEEEEERT_RKS6_S7_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN3ros8DurationE]+0xb8): undefined reference to `void tf2::doTransform<geometry_msgs::PointStamped_<std::allocator<void> > >(geometry_msgs::PointStamped_<std::allocator<void> > const&, geometry_msgs::PointStamped_<std::allocator<void> >&, geometry_msgs::TransformStamped_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/demo02_dynamic_sub.dir/build.make:107：/home/lcy/ros_tutorial/exe_05/devel/.private/demo02tf_dynamic/lib/demo02tf_dynamic/demo02_dynamic_sub] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/demo02_dynamic_sub.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

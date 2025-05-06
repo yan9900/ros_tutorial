@@ -1,0 +1,4 @@
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/share/ros_head/cmake/ros_headConfig-version.cmake
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/share/ros_head/cmake/ros_headConfig.cmake
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/lib/ros_head/hello
+Symlinking /home/lcy/ros_tutorial/exe_04/devel/lib/pkgconfig/ros_head.pc

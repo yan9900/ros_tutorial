@@ -1,0 +1,8 @@
+prefix=/home/lcy/ros_tutorial/exe_05/devel/.private/demo01tf_static
+
+Name: demo01tf_static
+Description: Description of demo01tf_static
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/lcy/ros_tutorial/exe_05/devel/.private/demo02tf_dynamic
+
+Name: demo02tf_dynamic
+Description: Description of demo02tf_dynamic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

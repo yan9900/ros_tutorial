@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target 03_apis_time[0m
+[ 83%] Built target 01_apis_pub
+[ 83%] Built target 02_apis_sub
+[ 83%] [32mBuilding CXX object CMakeFiles/03_apis_time.dir/src/03_apis_time.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lcy/ros_tutorial/exe_04/devel/.private/ros_apis/lib/ros_apis/03_apis_time[0m
+[100%] Built target 03_apis_time

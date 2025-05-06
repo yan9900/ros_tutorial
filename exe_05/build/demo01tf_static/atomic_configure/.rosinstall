@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lcy/ros_tutorial/exe_05/devel/.private/demo01tf_static/setup.sh

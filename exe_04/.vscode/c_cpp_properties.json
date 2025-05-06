@@ -8,7 +8,9 @@
             "includePath": [
                 "/opt/ros/noetic/include/**",
                 "/usr/include/**",
-                "/opt/ros/noetic/include"
+                "/opt/ros/noetic/include",
+                "/home/lcy/ros_tutorial/exe_04/src/ros_head/include/**",
+                "/home/lcy/ros_tutorial/exe_04/src/ros_head_src/include/**"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

@@ -1,0 +1,6 @@
+devel_space: /home/lcy/ros_tutorial/exe_05/devel
+install: false
+install_space: /home/lcy/ros_tutorial/exe_05/install
+profile: default
+source_space: /home/lcy/ros_tutorial/exe_05/src
+workspace: /home/lcy/ros_tutorial/exe_05
